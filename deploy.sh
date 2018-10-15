@@ -24,4 +24,5 @@ cd ..
 sudo rm -rf /var/www/html/*
 
 sudo cp -r acm_site/* /var/www/html
-rm -rf deployment
+cd ..
+rm -rf deployment/
